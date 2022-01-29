@@ -21,7 +21,7 @@ function tribonacci(signature, n) {
     }
   } else {
     for (i = 0; i < n; i++) {
-      result[i] = signature[n];
+      result[i] = signature[i];
     }
   }
   return result;
